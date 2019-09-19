@@ -1,0 +1,33 @@
+header.site__header.header
+  include ../hamburger/hamburger.pug
+  .header__logo
+    a(href='#main', rel='m_PageScroll2id')
+      img.logo_size_mini.hidden(src='assets/images/logo.jpg')
+  .header__nav#navigation.hidden.navigation-reduction
+    include ../navigation/navigation1.pug
+  .header__reduction
+    section.header__phone.hidden-xs
+        | +7 (777) 777-77-77
+    section.header__email.hidden-xs
+        | mail@mail.com
+  .header__full.hidden-sm
+    .header__info
+      section.header__nav
+        include ../navigation/navigation.pug
+      section.header__logo
+        a(href='#main', rel='m_PageScroll2id')
+          img.logo(src='assets/images/logo.jpg')
+      section.header__contacts
+        .contacts__label Телефон, WhatsApp, Viber:
+        .contacts__value +7 (777) 777-77-77
+        .contacts__label E-mail:
+        .contacts__value mail@mail.ru
+        .contacts__social
+          a(href="https://www.instagram.com/katerina_v_ushakova/" target="_blank")
+            i.fa.fa-instagram.fa-2x(aria-hidden='true')
+          a(href="https://www.facebook.com/katerina.v.ushakova/?epa=SEARCH_BOX" target="_blank")
+            i.fa.fa-facebook-official.fa-2x(aria-hidden='true')
+          
+    .header__photo
+      include ../../sections/main.pug
+  

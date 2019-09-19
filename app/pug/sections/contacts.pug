@@ -1,0 +1,27 @@
+section.section
+  h2.section__title#contacts
+    | Контакты
+  .container
+    .section__content.contacts
+      .contacts__contacts
+        .contacts__label Aдрес:
+        .contacts__value 2, Nizhnaya Radischevskaya, Moscow
+        .contacts__label Телефон, WhatsApp, Viber:
+        .contacts__value +7 (777) 777-77-77
+        .contacts__label E-mail:
+        .contacts__value mail@mail.ru
+        .contacts__label График работы:
+        .contacts__value пн-пт с 9:00 до 20:00
+        img.contacts__img(src='assets/images/logo_blue.jpg')
+      .contacts__form
+        form.form
+          input.form__input(type='text', placeholder='Имя')
+          br
+          input.form__input(type='email', placeholder='E-mail')
+          br
+          input.form__input(type='tel', placeholder='Телефон')
+          br
+          textarea.form__textarea(rows="10")
+          br
+          button.form__button(type='submit') Задать вопрос
+      

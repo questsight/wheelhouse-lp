@@ -1,0 +1,101 @@
+@keyframes top-out {
+from {
+	transform: translateY(0);
+}
+to {
+	transform: translateY(-150%);
+}
+}
+@keyframes top-in {
+from {
+	transform: translateY(-150%);
+}
+to {
+	transform: translateY(0);
+}
+}
+.animation-top-out-1200 {
+  animation: top-out 1200ms forwards;
+}
+.animation-top-out-300 {
+  animation: top-out 300ms forwards;
+}
+.animation-top-in-1200 {
+  animation: top-in 1200ms forwards;
+}
+.animation-top-in-300 {
+  animation: top-in 300ms forwards;
+}
+
+@keyframes top-out-content {
+from {
+	margin-top: headerFullHeight + mainHeight + 10px;
+}
+to {
+	margin-top: headerHeight;
+}
+}
+@keyframes top-in-content {
+from {
+	margin-top: headerHeight;
+}
+to {
+	margin-top: headerFullHeight + mainHeight + 10px;
+}
+}
+.animation-top-out-content {
+  animation: top-out-content 1200ms forwards;
+}
+.animation-top-in-content {
+  animation: top-in-content 1200ms forwards;
+}
+
+@keyframes right {
+from {
+  transform: translateX(15px);
+}
+50% {
+  transform: translateX(100vw) translateX(-3800px);
+}
+to {
+  transform: translateX(15px);
+}
+}
+.animation-right {
+  animation: right 80000ms infinite;
+}
+.animation-box
+  display flex
+  
+@keyframes program {
+from {
+  width: 33%;
+}
+to {
+  width: calc(100% - 30px);
+}
+}  
+.animation-program
+  animation: program 600ms forwards;
+@keyframes opacit {
+from {
+  opacity: 0;
+}
+50% {
+  opacity: 0;
+}
+to {
+	opacity: 1;
+}
+}  
+.animation-opacity
+  animation: opacit 1200ms forwards;
+  
+@keyframes nav {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,61 @@
+footer.site__footer.footer
+  .copyright
+    | &copy; 2019 Студия авторской мебели WheelHouse
+  .popup-product#popup-product.hidden
+    .container
+      .popup-container
+        .popup-product__close#product__close
+          | &#10006;
+        .popup-product__img-box
+          img.popup-product__main-photo#main-photo(src='assets/images/main/main-01.jpg' popup-img)
+        .popup-product__description
+          h2.popup-product__title Диван "Ляляляляля"
+          p
+            | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+          p
+            | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+          p
+            | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+          .popup-product__price Стоимость от 100000руб.
+        .popup-product__parameter
+          .popup-product__box-half
+            h3.popup-product__subtitle Характеристики
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+            h3.popup-product__subtitle Возможные опции
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+            p
+              | Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse Студия авторской мебели WheelHouse
+          .popup-product__box-half
+            h3.popup-product__subtitle Хотите такой же?
+            .popup-product__form
+              form.form.popup-product__form
+                input.form__input(type='text', placeholder='Имя')
+                br
+                input.form__input(type='email', placeholder='E-mail')
+                br
+                input.form__input(type='tel', placeholder='Телефон')
+                br
+                textarea.form__textarea(rows="10")
+                br
+                button.form__button(type='submit') Заказать расчёт
+        .popup-product__photogallery
+          img.popup-product__img(popup-img src='assets/images/good/good_04.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_06.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_07.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_01.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_02.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_03.jpg')
+          img.popup-product__img(popup-img src='assets/images/good/good_05.jpg')
+  .popup-photogallery.hidden#photogallery
+    .popup-photogallery-box
+      .popup-photogallery-close#photogallery-close
+        | &#10006;
+      img.popup-photogallery-img#photogallery-img(src)

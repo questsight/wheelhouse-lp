@@ -1,0 +1,25 @@
+.navigation-reduction
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  background fonColor
+  box-shadow 0 0 5px darkOverlay
+  animation: nav 600ms forwards
+  display flex
+  height 100vh
+  z-index 902
+  width 290px
+  .navigation
+    margin-top 40px
+    text-align center
+    justify-content flex-start
+    .navigation__item
+      box-shadow none
+      margin-right 0
+      padding 15px
+      color themeColor
+      font-family titleFont
+      &:hover
+        color themeColor
+        font-family titleBoldFont
